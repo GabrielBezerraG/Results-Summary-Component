@@ -1,0 +1,19 @@
+:root {
+   /* Neutral Colors */
+   --white: hsl(0, 0%, 100%);
+   --light-blue: hsl(221, 100%, 96%);
+   --lavender: hsl(241, 100%, 89%);
+   --dark-blue: hsl(224, 30%, 27%);
+
+   /* Gradients */
+   --gr-light-violet: hsl(252, 100%, 67%);
+   --gr-blue: hsl(241, 81%, 54%);
+   --gr-violet: hsla(256, 72%, 46%, 1);
+   --gr-opaque: hsla(241, 72%, 46%, 0);
+}
+
+html {
+   font-size: 18px;
+   font-family: 'Hanken Grotesk', sans-serif;
+   font-weight: 500;
+}
