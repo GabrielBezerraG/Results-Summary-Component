@@ -14,7 +14,7 @@ export const StyledArticle = styled.article`
       display: flex;
       align-items: center;
       column-gap: 0.65rem;
-      color: ${(props) => props.color};
+      color: ${(props) => props.fontColor};
       filter: contrast(0.75);
 
       i {

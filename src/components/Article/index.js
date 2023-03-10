@@ -5,7 +5,7 @@ export default function Article( {data} ) {
    const rgbaStr = [...rgbArray, '0.06'].join(', ');
    const backgroundColor = `rgba(${rgbaStr})`
    return (
-      <StyledArticle color={data.color} icon={data.icon} backgroundColor={backgroundColor}>
+      <StyledArticle fontColor={data.color} icon={data.icon} backgroundColor={backgroundColor}>
          <h4>
             <i />
             {data.category}
