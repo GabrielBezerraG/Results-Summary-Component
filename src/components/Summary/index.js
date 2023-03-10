@@ -1,6 +1,6 @@
 import { StyledSummary } from "./styles";
-import data from "../../../data.json";
 import Article from "../Article";
+import data from "../../../data.json";
 
 export default function Summary() {
    return (

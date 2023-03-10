@@ -12,6 +12,7 @@ export const StyledResult = styled.div`
    h1 {
       color: var(--lavender);
       margin-bottom: 1.45rem;
+      font-weight: 700;
    }
 
    .result__circle {
@@ -36,18 +37,59 @@ export const StyledResult = styled.div`
       span {
          font-size: 0.85rem;
          color: var(--lavender);
+         filter: brightness(0.8);
       }
    }
 
    h3 {
-      font-size: 1.35rem;
+      font-size: 1.3rem;
       color: var(--white);
       margin-bottom: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.25px;
    }
 
    p {
       color: var(--lavender);
       font-size: 0.9rem;
       line-height: 1.15rem;
+   }
+
+   @media screen and (min-width: 768px) {
+      border-radius: 30px;
+      padding: 2.35rem 3.25rem 3rem;
+
+      h1 {
+         margin-bottom: 2.15rem;
+         font-size: 1.32rem;
+         margin-right: 0.25rem;
+      }
+
+      .result__circle {
+         width: 200px;
+         height: 200px;
+         padding-top: 3.05rem;
+         row-gap: 0.4rem;
+         margin-bottom: 1.9rem;
+
+         h2 {
+            font-size: 4rem;
+         }
+
+         span {
+            font-size: 1rem;
+         }
+      }
+
+      h3 {
+         font-size: 1.75rem;
+         margin-bottom: 1rem;
+         margin-right: 0.25rem;
+      }
+
+      p {
+         font-size: 1rem;
+         line-height: 1.28rem;
+      }
    }
 `;

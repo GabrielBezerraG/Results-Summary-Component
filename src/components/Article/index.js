@@ -2,7 +2,7 @@ import { StyledArticle } from "./styles";
 
 export default function Article( {data} ) {
    const rgbArray = data.color.match(/\d{1,3}/g);
-   const rgbaStr = [...rgbArray, '0.075'].join(', ');
+   const rgbaStr = [...rgbArray, '0.06'].join(', ');
    const backgroundColor = `rgba(${rgbaStr})`
    return (
       <StyledArticle color={data.color} icon={data.icon} backgroundColor={backgroundColor}>
